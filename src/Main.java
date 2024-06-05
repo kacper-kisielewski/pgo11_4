@@ -13,7 +13,7 @@ public class Main {
 
     public static int readNumber() throws NegativeNumberException {
         Scanner scanner = new Scanner(System.in);
-        int number =  scanner.nextInt();
+        int number = scanner.nextInt();
         if (number < 0)
             throw new NegativeNumberException();
         return number;
